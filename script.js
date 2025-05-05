@@ -10,7 +10,7 @@ Completed Project should
 
 //Create a deck class to structure how to organize the objects in a deck
 
-class Deck 
+export class Deck 
 {
     //constructor will initailaize the objects properties
     constructor()
@@ -76,7 +76,7 @@ class Deck
     }
 }
 
-class Player
+export class Player
 {
     //constructor will initailaize the objects properties for players
     constructor()
@@ -104,7 +104,7 @@ class Player
 }
 
 //to call on the player class I extended Game class from Player and used super to call on my player constructor
-class Game extends Player
+export class Game extends Player
 {
     constructor()
     {
@@ -214,6 +214,7 @@ class Game extends Player
 const game = new Game
 game.playGame()
 
-module.exports = { Deck, Player, Game };
+//export class Deck,Player,and Game to script_test for testing functions
+//used ES modules over Cjs modules because after research ES modules recommened over Cjs
 
 
