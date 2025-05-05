@@ -9,7 +9,7 @@ Completed Project should
 */
 
 //Create a deck class to structure how to organize the objects in a deck
-
+//export will be used to reference the module class using ES modules
 export class Deck 
 {
     //constructor will initailaize the objects properties
