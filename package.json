@@ -1,0 +1,25 @@
+{
+  "name": "wargame-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha script_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rperezgomez/Project2-War-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rperezgomez/Project2-War-Game/issues"
+  },
+  "homepage": "https://github.com/rperezgomez/Project2-War-Game#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2"
+  }
+}
+

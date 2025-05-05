@@ -9,6 +9,7 @@ Completed Project should
 */
 
 //Create a deck class to structure how to organize the objects in a deck
+
 class Deck 
 {
     //constructor will initailaize the objects properties
@@ -30,7 +31,7 @@ class Deck
             "9",
             "10",
             "Jack",
-            "Qeen",
+            "Queen",
             "King"
         ];
         //array for suits
@@ -213,6 +214,6 @@ class Game extends Player
 const game = new Game
 game.playGame()
 
-
+module.exports = { Deck, Player, Game };
 
 
